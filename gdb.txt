@@ -1,0 +1,1057 @@
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+ptrace: Operation not permitted.
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+ptrace: Operation not permitted.
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+Argument required (process-id to attach).
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 753515]
+[New LWP 753516]
+[New LWP 753549]
+[New LWP 753550]
+[New LWP 753551]
+[New LWP 753552]
+[New LWP 753585]
+[New LWP 753586]
+[New LWP 753587]
+[New LWP 753703]
+[New LWP 753704]
+[New LWP 753705]
+[New LWP 753772]
+[New LWP 753773]
+[New LWP 753774]
+[New LWP 754158]
+[New LWP 754159]
+[New LWP 754160]
+[New LWP 754161]
+[New LWP 754162]
+[New LWP 754163]
+[New LWP 754164]
+[New LWP 754165]
+[New LWP 754166]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/home/will/Source/SDLHookbuild/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+0x00007f74c7bbf9c8 in pthread_cond_timedwait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+$1 = (void *) 0x0
+[Inferior 1 (process 753514) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 761948]
+[New LWP 761949]
+[New LWP 761950]
+[New LWP 761951]
+[New LWP 761968]
+[New LWP 761969]
+[New LWP 761970]
+[New LWP 761971]
+[New LWP 762110]
+[New LWP 762452]
+[New LWP 762469]
+[New LWP 762536]
+[New LWP 762537]
+[New LWP 762538]
+[New LWP 762539]
+[New LWP 762573]
+[New LWP 762574]
+[New LWP 762836]
+[New LWP 762838]
+[New LWP 762839]
+[New LWP 762840]
+[New LWP 762841]
+[New LWP 762875]
+[New LWP 762876]
+[New LWP 762877]
+[New LWP 762878]
+[New LWP 763139]
+[New LWP 763140]
+[New LWP 763141]
+[New LWP 763142]
+[New LWP 763178]
+[New LWP 763212]
+[New LWP 763213]
+[New LWP 763214]
+[New LWP 764161]
+[New LWP 766484]
+[New LWP 766485]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+0x00007fefbee82b51 in __memcpy_ssse3 () from /usr/lib/libc.so.6
+[Thread 0x7fef4fd87640 (LWP 766485) exited]
+[Thread 0x7fef52ca1640 (LWP 766484) exited]
+[New Thread 0x7fef4fd87640 (LWP 766979)]
+[New Thread 0x7fef52ca1640 (LWP 766980)]
+$1 = (void *) 0x0
+[Inferior 1 (process 761814) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 771644]
+[New LWP 771645]
+[New LWP 771646]
+[New LWP 771647]
+[New LWP 771680]
+[New LWP 771681]
+[New LWP 771682]
+[New LWP 771683]
+[New LWP 771834]
+[New LWP 772162]
+[New LWP 772195]
+[New LWP 772262]
+[New LWP 772263]
+[New LWP 772264]
+[New LWP 772265]
+[New LWP 772299]
+[New LWP 772300]
+[New LWP 772558]
+[New LWP 772591]
+[New LWP 772592]
+[New LWP 772593]
+[New LWP 772594]
+[New LWP 772630]
+[New LWP 772631]
+[New LWP 772632]
+[New LWP 772634]
+[New LWP 772895]
+[New LWP 772896]
+[New LWP 772897]
+[New LWP 772898]
+[New LWP 772933]
+[New LWP 772936]
+[New LWP 772937]
+[New LWP 772938]
+[New LWP 773100]
+[New LWP 775102]
+[New LWP 775103]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+0x00007fbbe2ba6f6b in ioctl () from /usr/lib/libc.so.6
+[Thread 0x7fbb730bf640 (LWP 775103) exited]
+[Thread 0x7fbb728be640 (LWP 775102) exited]
+[New Thread 0x7fbb730bf640 (LWP 775539)]
+[New Thread 0x7fbb728be640 (LWP 775540)]
+$1 = (void *) 0x0
+[Inferior 1 (process 771640) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 771644]
+[New LWP 771645]
+[New LWP 771646]
+[New LWP 771647]
+[New LWP 771680]
+[New LWP 771681]
+[New LWP 771682]
+[New LWP 771683]
+[New LWP 771834]
+[New LWP 772162]
+[New LWP 772195]
+[New LWP 772262]
+[New LWP 772263]
+[New LWP 772264]
+[New LWP 772265]
+[New LWP 772299]
+[New LWP 772300]
+[New LWP 772558]
+[New LWP 772591]
+[New LWP 772592]
+[New LWP 772593]
+[New LWP 772594]
+[New LWP 772630]
+[New LWP 772631]
+[New LWP 772632]
+[New LWP 772634]
+[New LWP 772895]
+[New LWP 772896]
+[New LWP 772897]
+[New LWP 772898]
+[New LWP 772933]
+[New LWP 772936]
+[New LWP 772937]
+[New LWP 772938]
+[New LWP 773100]
+[New LWP 776208]
+[New LWP 776209]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+0x00007fbbdd160e54 in ?? () from /usr/lib/dri/nouveau_dri.so
+[Thread 0x7fbb728be640 (LWP 776209) exited]
+[Thread 0x7fbb730bf640 (LWP 776208) exited]
+[New Thread 0x7fbb728be640 (LWP 776657)]
+[New Thread 0x7fbb730bf640 (LWP 776690)]
+$1 = (void *) 0x0
+[Inferior 1 (process 771640) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 771644]
+[New LWP 771645]
+[New LWP 771646]
+[New LWP 771647]
+[New LWP 771680]
+[New LWP 771681]
+[New LWP 771682]
+[New LWP 771683]
+[New LWP 771834]
+[New LWP 772162]
+[New LWP 772195]
+[New LWP 772262]
+[New LWP 772263]
+[New LWP 772264]
+[New LWP 772265]
+[New LWP 772299]
+[New LWP 772300]
+[New LWP 772558]
+[New LWP 772591]
+[New LWP 772592]
+[New LWP 772593]
+[New LWP 772594]
+[New LWP 772630]
+[New LWP 772631]
+[New LWP 772632]
+[New LWP 772634]
+[New LWP 772895]
+[New LWP 772896]
+[New LWP 772897]
+[New LWP 772898]
+[New LWP 772933]
+[New LWP 772936]
+[New LWP 772937]
+[New LWP 772938]
+[New LWP 773100]
+[New LWP 778470]
+[New LWP 778471]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+0x00007fbbe2ba6f6b in ioctl () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 771640) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 771644]
+[New LWP 771645]
+[New LWP 771646]
+[New LWP 771647]
+[New LWP 771680]
+[New LWP 771681]
+[New LWP 771682]
+[New LWP 771683]
+[New LWP 771834]
+[New LWP 772162]
+[New LWP 772195]
+[New LWP 772262]
+[New LWP 772263]
+[New LWP 772264]
+[New LWP 772265]
+[New LWP 772299]
+[New LWP 772300]
+[New LWP 772558]
+[New LWP 772591]
+[New LWP 772592]
+[New LWP 772593]
+[New LWP 772594]
+[New LWP 772630]
+[New LWP 772631]
+[New LWP 772632]
+[New LWP 772634]
+[New LWP 772895]
+[New LWP 772896]
+[New LWP 772897]
+[New LWP 772898]
+[New LWP 772933]
+[New LWP 772936]
+[New LWP 772937]
+[New LWP 772938]
+[New LWP 773100]
+[New LWP 780489]
+[New LWP 780490]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:build/".
+0x00007fbbe2bf2a8f in __memcpy_ssse3 () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 771640) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 771644]
+[New LWP 771645]
+[New LWP 771646]
+[New LWP 771647]
+[New LWP 771680]
+[New LWP 771681]
+[New LWP 771682]
+[New LWP 771683]
+[New LWP 771834]
+[New LWP 772162]
+[New LWP 772195]
+[New LWP 772262]
+[New LWP 772263]
+[New LWP 772264]
+[New LWP 772265]
+[New LWP 772299]
+[New LWP 772300]
+[New LWP 772558]
+[New LWP 772591]
+[New LWP 772592]
+[New LWP 772593]
+[New LWP 772594]
+[New LWP 772630]
+[New LWP 772631]
+[New LWP 772632]
+[New LWP 772634]
+[New LWP 772895]
+[New LWP 772896]
+[New LWP 772897]
+[New LWP 772898]
+[New LWP 772933]
+[New LWP 772936]
+[New LWP 772937]
+[New LWP 772938]
+[New LWP 773100]
+[New LWP 793536]
+[New LWP 793537]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/home/will/Source/SDLHookbuild/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/home/will/Source/SDLHookbuild/".
+0x00007fbbe2ba6f6b in ioctl () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 771640) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 771644]
+[New LWP 771645]
+[New LWP 771646]
+[New LWP 771647]
+[New LWP 771680]
+[New LWP 771681]
+[New LWP 771682]
+[New LWP 771683]
+[New LWP 771834]
+[New LWP 772162]
+[New LWP 772195]
+[New LWP 772262]
+[New LWP 772263]
+[New LWP 772264]
+[New LWP 772265]
+[New LWP 772299]
+[New LWP 772300]
+[New LWP 772558]
+[New LWP 772591]
+[New LWP 772592]
+[New LWP 772593]
+[New LWP 772594]
+[New LWP 772630]
+[New LWP 772631]
+[New LWP 772632]
+[New LWP 772634]
+[New LWP 772895]
+[New LWP 772896]
+[New LWP 772897]
+[New LWP 772898]
+[New LWP 772933]
+[New LWP 772936]
+[New LWP 772937]
+[New LWP 772938]
+[New LWP 773100]
+[New LWP 798248]
+[New LWP 798249]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fbbe2ba6f6b in ioctl () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 771640) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 771644]
+[New LWP 771645]
+[New LWP 771646]
+[New LWP 771647]
+[New LWP 771680]
+[New LWP 771681]
+[New LWP 771682]
+[New LWP 771683]
+[New LWP 771834]
+[New LWP 772162]
+[New LWP 772195]
+[New LWP 772262]
+[New LWP 772263]
+[New LWP 772264]
+[New LWP 772265]
+[New LWP 772299]
+[New LWP 772300]
+[New LWP 772558]
+[New LWP 772591]
+[New LWP 772592]
+[New LWP 772593]
+[New LWP 772594]
+[New LWP 772630]
+[New LWP 772631]
+[New LWP 772632]
+[New LWP 772634]
+[New LWP 772895]
+[New LWP 772896]
+[New LWP 772897]
+[New LWP 772898]
+[New LWP 772933]
+[New LWP 772936]
+[New LWP 772937]
+[New LWP 772938]
+[New LWP 773100]
+[New LWP 801750]
+[New LWP 801751]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fbbe2bf05e3 in __memcpy_ssse3 () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 771640) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 828333]
+[New LWP 828334]
+[New LWP 828335]
+[New LWP 828336]
+[New LWP 828337]
+[New LWP 828338]
+[New LWP 828339]
+[New LWP 828340]
+[New LWP 828491]
+[New LWP 828851]
+[New LWP 828884]
+[New LWP 828983]
+[New LWP 828984]
+[New LWP 828985]
+[New LWP 828986]
+[New LWP 829056]
+[New LWP 829057]
+[New LWP 829293]
+[New LWP 829327]
+[New LWP 829328]
+[New LWP 829329]
+[New LWP 829330]
+[New LWP 829332]
+[New LWP 829333]
+[New LWP 829335]
+[New LWP 829336]
+[New LWP 829631]
+[New LWP 829632]
+[New LWP 829633]
+[New LWP 829634]
+[New LWP 829669]
+[New LWP 829703]
+[New LWP 829704]
+[New LWP 829705]
+[New LWP 829839]
+[New LWP 830994]
+[New LWP 830995]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007f9ecde4ef6b in ioctl () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 828136) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 888520]
+[New LWP 888521]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fe8f1916f6b in ioctl () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 894653]
+[New LWP 894654]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fe8f1916f6b in ioctl () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 898733]
+[New LWP 898734]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fe8f1960bc7 in __memcpy_ssse3 () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 901515]
+[New LWP 901516]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fe8f1916f6b in ioctl () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 903900]
+[New LWP 903901]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/usr/lib64/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/usr/lib64/".
+0x00007fe8f1962b84 in __memcpy_ssse3 () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 906954]
+[New LWP 906955]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/usr/lib64/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/usr/lib64/".
+0x00007fe8f1962a50 in __memcpy_ssse3 () from /usr/lib/libc.so.6
+$1 = (void *) 0x0
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 910692]
+[New LWP 910693]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/usr/lib64/".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/share/gdb/auto-load/usr/lib/libstdc++.so.6.0.28-gdb.py
+line to your configuration file "/root/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/root/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+warning: File "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6600.4-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "/usr/share/gdb/auto-load/usr/lib64/:/usr/lib64/".
+0x00007fe8f1916f6b in ioctl () from /usr/lib/libc.so.6
+[New Thread 0x7fe884eb1640 (LWP 911062)]
+[Thread 0x7fe884eb1640 (LWP 911062) exited]
+$1 = (void *) 0x2d6ad500
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 913770]
+[New LWP 913771]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fe8f19606d4 in __memcpy_ssse3 () from /usr/lib/libc.so.6
+$1 = 0
+$2 = 0
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 876318]
+[New LWP 876319]
+[New LWP 876320]
+[New LWP 876321]
+[New LWP 876322]
+[New LWP 876323]
+[New LWP 876324]
+[New LWP 876325]
+[New LWP 876477]
+[New LWP 876811]
+[New LWP 876844]
+[New LWP 876884]
+[New LWP 876890]
+[New LWP 876894]
+[New LWP 876898]
+[New LWP 876952]
+[New LWP 876953]
+[New LWP 877150]
+[New LWP 877183]
+[New LWP 877184]
+[New LWP 877185]
+[New LWP 877186]
+[New LWP 877188]
+[New LWP 877189]
+[New LWP 877190]
+[New LWP 877191]
+[New LWP 877487]
+[New LWP 877488]
+[New LWP 877489]
+[New LWP 877490]
+[New LWP 877493]
+[New LWP 877527]
+[New LWP 877528]
+[New LWP 877529]
+[New LWP 877663]
+[New LWP 914194]
+[New LWP 914195]
+warning: Could not load shared library symbols for bin/linux64/launcher_client.so.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fe8f19605fa in __memcpy_ssse3 () from /usr/lib/libc.so.6
+[New Thread 0x7fe884eb1640 (LWP 914336)]
+[Thread 0x7fe884eb1640 (LWP 914336) exited]
+$1 = (void *) 0x2d6ad500
+[Inferior 1 (process 876250) detached]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+ptrace: Operation not permitted.
+No symbol table is loaded.  Use the "file" command.
+You can't do that without a process to debug.
+The program is not being run.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[New LWP 935652]
+[New LWP 935670]
+[New LWP 935729]
+[New LWP 935730]
+[New LWP 935731]
+[New LWP 935732]
+[New LWP 935733]
+[New LWP 935769]
+[New LWP 935770]
+[New LWP 935875]
+[New LWP 935876]
+[New LWP 935877]
+[New LWP 936308]
+[New LWP 936309]
+[New LWP 936310]
+[New LWP 936311]
+[New LWP 936312]
+[New LWP 936313]
+[New LWP 936314]
+[New LWP 936315]
+[New LWP 936316]
+[New LWP 936317]
+[New LWP 936318]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fe512efd46f in poll () from /usr/lib/libc.so.6
+[New Thread 0x7fe44d94a640 (LWP 940158)]
+[Thread 0x7fe44d94a640 (LWP 940158) exited]
+$1 = (void *) 0x4c27540
+[Inferior 1 (process 935651) detached]

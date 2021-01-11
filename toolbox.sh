@@ -1,8 +1,12 @@
 #!/bin/bash
-pid=$(pidof APPLICATION)
+pid=$(pidof PROGRAM NAME)
 
 # name of library to inject lib as via gdb
-libname="build/libSDLHook.so"
+libname="libSDLHook.so"
+libdirname="lib"
+if [ $(getconf LONG_BIT) = 64 ]; then
+    libdirname+="64"
+fi
 
 function unload {
     echo "unloading cheat..."
@@ -27,14 +31,15 @@ function unload {
 
 function load {
     echo "loading cheat..."
+    cp build/libSDLHook.so /usr/lib/$libname
     gdb -n -q -batch-silent \
         -ex "set logging on" \
         -ex "set logging file /dev/null" \
         -ex "set logging redirect on" \
-        -ex "set auto-load safe-path /usr/share/gdb/auto-load/usr/lib64/:build" \
+        -ex "set auto-load safe-path /usr/share/gdb/auto-load/usr/lib/:/usr/lib/" \
         -ex "attach $pid" \
         -ex "set \$dlopen = (void*(*)(char*, int)) dlopen" \
-        -ex "call \$dlopen(\"$libname\", 1)" \
+        -ex "call \$dlopen(\"/usr/lib/$libname\", 1)" \
         -ex "detach" \
         -ex "quit"
     echo "successfully loaded!"

@@ -23,7 +23,7 @@ void Hooks::SwapWindow(SDL_Window* window) {
 
 /* Initialise SDL hooks */
 bool Hooks::initSDL() {
-    printf("[LOG] Initialising SDL Hooks...");
+    printf("[LOG] Initialising SDL Hooks...\n");
     const auto libSDL = dlopen("libSDL2-2.0.so.0", RTLD_LAZY | RTLD_NOLOAD);
 
     swapWindowAddr = relativeToAbsolute<uintptr_t>(uintptr_t(dlsym(libSDL, "SDL_GL_SwapWindow")) + 3);
@@ -32,11 +32,11 @@ bool Hooks::initSDL() {
         *reinterpret_cast<decltype(SwapWindow)**>(swapWindowAddr) = SwapWindow;
     }
     else {
-        printf("[ERR] Failed to initialise SwapWindow hook!");
+        printf("[ERR] Failed to initialise SwapWindow hook!\n");
         return false;
     }
 
-    printf("[LOG] SwapWindow %s", std::to_string(swapWindowAddr));
+    printf("[LOG] SwapWindow %s\n", std::to_string(swapWindowAddr));
 
     pollEventAddr = relativeToAbsolute<uintptr_t>(uintptr_t(dlsym(libSDL, "SDL_PollEvent")) + 3);
     if (pollEventAddr) {
@@ -44,22 +44,22 @@ bool Hooks::initSDL() {
         *reinterpret_cast<decltype(PollEvent)**>(pollEventAddr) = PollEvent;
     }
     else {
-        printf("[ERR] Failed to initialise PollEvent hook!");
+        printf("[ERR] Failed to initialise PollEvent hook!\n");
         return false;
     }
 
-    printf("[LOG] PollEvent %s", std::to_string(pollEventAddr));
-    printf("[LOG] Initialised SDL Hooks!");
+    printf("[LOG] PollEvent %s\n", std::to_string(pollEventAddr));
+    printf("[LOG] Initialised SDL Hooks!\n");
     return true;
 }
 
 /* Unload SDL hooks */
 bool Hooks::unloadSDL() {
-    printf("Unloading SDL Hooks...");
+    printf("[LOG] Unloading SDL Hooks...\n");
     *reinterpret_cast<decltype(swapWindow)*>(swapWindowAddr) = swapWindow;
     *reinterpret_cast<decltype(pollEvent)*>(pollEventAddr) = pollEvent;
     if (*reinterpret_cast<decltype(swapWindow)*>(swapWindowAddr)!=swapWindow || *reinterpret_cast<decltype(pollEvent)*>(pollEventAddr)!=pollEvent) {
-        printf("[ERR] Failed to unload SDL hooks!");
+        printf("[ERR] Failed to unload SDL hooks!\n");
         return false;
     }
     return true;
