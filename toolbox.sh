@@ -1,5 +1,5 @@
 #!/bin/bash
-pid=$(pidof PROGRAM NAME)
+pid=$(pidof processname)
 
 # name of library to inject lib as via gdb
 libname="libSDLHook.so"
